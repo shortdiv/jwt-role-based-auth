@@ -1,6 +1,6 @@
-const cookie = require("cookie");
-
 exports.handler = (event, context, callback) => {
+  const cookie = require("cookie");
+
   const netlifyCookie = cookie.serialize("nf_jwt", "sometoken", {
     secure: true,
     path: "/",
