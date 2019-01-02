@@ -1,5 +1,5 @@
 <template>
-  <div><button @click="getToken"></button></div>
+  <div><button @click="getToken">Click Me</button></div>
 </template>
 
 <script>
